@@ -42,6 +42,9 @@
       };
     };
   };
+  # Required by end-4 / end4-pC for location-aware widgets.
+  services.geoclue2.enable = true;
+
   # Enable networking
   networking.networkmanager = {
     enable = true;
